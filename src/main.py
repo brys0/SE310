@@ -1,9 +1,17 @@
+import math
 
+def sqrt(number1):
+  print("We are square rooting this value " + str(number1))
+  return math.sqrt(number1)
+        
 
 #### TASK 1 - ENTER YOUR TEAM NAME AND NUMBER
 team_name = "Scrumbeldores Army"
 
+
+
 #### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
+
 
 #### TASK 3 - Add this code to your gitHub repo - follow the best practices of add --> commit --> pull --> push
 
@@ -14,6 +22,19 @@ def addition(number1, number2):
 def division(number1, number2):
   print("We are dividing " + str(number1) + " and " + str(number2))
   return number1 / number2
+def int_divide(number1: int, number2: int):
+  print(f"We are dividng {number1} and {number2}")
+  return number1//number2
+
+def subtraction(number1, number2):
+  print("We are subtracting " + str(number1) + " and " + str(number2))
+  return number1 - number2
+
+
+def multiplication(number1, number2):
+  print("We are multiplying " + str(number1) + " and " + str(number2))
+  return number1 * number2
+
 
 def calculator():
   print("Calculator by team =  " + team_name)
@@ -28,12 +49,18 @@ def calculator():
 
   choice = int(input("Enter your choice: "))
 
+  if choice == 5:
+    num1 = int(input("Provide number to divide from: "))
+    num2 = int(input("Provide number to divide by: "))
+    
+    print(f"Result: {int_divide(num1, num2)}")
+
 
 
 calculator()
 
 
-#### TASK 4 (Member #2)- pull the gitHub repo in your local computer  and implement the SUBTRACTION function()
+#### TASK 4 (Member #2)- pull the gitHub repo in your local computer and implement the SUBTRACTION function()
 
 #### TASK 5 (Member #2)- Add the implemented the SUBTRACTION function() to your gitHub repo in a new branch called feature/subtract
 
