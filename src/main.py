@@ -1,4 +1,11 @@
 #### TASK 1 - ENTER YOUR TEAM NAME AND NUMBER
+import math
+
+def sqrt(number1):
+  print("We are square rooting " + str(number1))
+  return math.sqrt(number1)
+
+
 team_name = ""
 
 #### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
@@ -14,6 +21,7 @@ def addition(number1, number2):
 def subtraction(number1, number2):
   print("We are subtracting " + str(number1) + " and " + str(number2))
   return number1 - number2
+
 
 
 def calculator():
@@ -48,11 +56,11 @@ calculator()
 #### TASK 9 (Member #4)- Add the implemented the Division function() to your gitHub repo in a new branch called feature/div
 
 
-#### TASK 8 (Member #1)- pull the gitHub repo in your local computer  and implement the IntegerDivision function()
+#### TASK 8 (Member #1)- pull the gitHub repo in your local computer and implement the IntegerDivision function()
 
 #### TASK 9 (Member #1)- Add the implemented the IntegerDivision function() to your gitHub repo in the existing branch feature/div
 
 
-#### TASK 10 (Member #2)- pull the gitHub repo in your local computer  and implement the SQRT function()
+#### TASK 10 (Member #2)- pull the gitHub repo in your local computer and implement the SQRT function()
 
 #### TASK 11 (Member #2)- Add the implemented the SQRT function() to your gitHub repo in the main branch
