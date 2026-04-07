@@ -19,6 +19,9 @@ def addition(number1, number2):
   print("We are adding " + str(number1) + " and " + str(number2))
   return number1 + number2
 
+def division(number1, number2):
+  print("We are dividing " + str(number1) + " and " + str(number2))
+  return number1 / number2
 def int_divide(number1: int, number2: int):
   print(f"We are dividng {number1} and {number2}")
   return number1//number2
