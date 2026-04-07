@@ -1,7 +1,14 @@
+import math
 
+def sqrt(number1):
+  print("We are square rooting this value " + str(number1))
+  return math.sqrt(number1)
+        
 
 #### TASK 1 - ENTER YOUR TEAM NAME AND NUMBER
 team_name = "Scrumbeldores Army"
+
+
 
 #### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
 
