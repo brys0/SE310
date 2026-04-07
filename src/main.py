@@ -28,6 +28,12 @@ def calculator():
 
   choice = int(input("Enter your choice: "))
 
+  if choice == 5:
+    num1 = int(input("Provide number to divide from: "))
+    num2 = int(input("Provide number to divide by: "))
+    
+    print(f"Result: {int_divide(num1, num2)}")
+
 
 
 calculator()
