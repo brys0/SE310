@@ -12,11 +12,17 @@ team_name = "Scrumbeldores Army"
 
 #### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
 
+
 #### TASK 3 - Add this code to your gitHub repo - follow the best practices of add --> commit --> pull --> push
 
 def addition(number1, number2):
   print("We are adding " + str(number1) + " and " + str(number2))
   return number1 + number2
+
+
+def subtraction(number1, number2):
+  print("We are subtracting " + str(number1) + " and " + str(number2))
+  return number1 - number2
 
 
 def calculator():
@@ -37,7 +43,7 @@ def calculator():
 calculator()
 
 
-#### TASK 4 (Member #2)- pull the gitHub repo in your local computer  and implement the SUBTRACTION function()
+#### TASK 4 (Member #2)- pull the gitHub repo in your local computer and implement the SUBTRACTION function()
 
 #### TASK 5 (Member #2)- Add the implemented the SUBTRACTION function() to your gitHub repo in a new branch called feature/subtract
 
