@@ -1,5 +1,7 @@
+
+
 #### TASK 1 - ENTER YOUR TEAM NAME AND NUMBER
-team_name = ""
+team_name = "Scrumbeldores Army"
 
 #### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
 
@@ -23,7 +25,7 @@ def calculator():
 
   choice = int(input("Enter your choice: "))
 
- 
+
 
 calculator()
 
