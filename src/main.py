@@ -19,6 +19,9 @@ def addition(number1, number2):
   print("We are adding " + str(number1) + " and " + str(number2))
   return number1 + number2
 
+def int_divide(number1: int, number2: int):
+  print(f"We are dividng {number1} and {number2}")
+  return number1//number2
 
 def subtraction(number1, number2):
   print("We are subtracting " + str(number1) + " and " + str(number2))
@@ -37,6 +40,12 @@ def calculator():
   print("7. Exponent")
 
   choice = int(input("Enter your choice: "))
+
+  if choice == 5:
+    num1 = int(input("Provide number to divide from: "))
+    num2 = int(input("Provide number to divide by: "))
+    
+    print(f"Result: {int_divide(num1, num2)}")
 
 
 
