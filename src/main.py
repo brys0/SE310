@@ -16,23 +16,23 @@ team_name = "Scrumbeldores Army"
 #### TASK 3 - Add this code to your gitHub repo - follow the best practices of add --> commit --> pull --> push
 
 def addition(number1, number2):
-  print("We are adding " + str(number1) + " and " + str(number2))
+  # print("We are adding " + str(number1) + " and " + str(number2))
   return number1 + number2
 
 def division(number1, number2):
-  print("We are dividing " + str(number1) + " and " + str(number2))
+  # print("We are dividing " + str(number1) + " and " + str(number2))
   return number1 / number2
 
 def int_division(number1, number2):
-  print(f"We are integer dividing {number1} and {number2}")
+ # print(f"We are integer dividing {number1} and {number2}")
   return number1 // number2
 
 def subtraction(number1, number2):
-  print("We are subtracting " + str(number1) + " and " + str(number2))
+  # print("We are subtracting " + str(number1) + " and " + str(number2))
   return number1 - number2
 
 def multiplication(number1, number2):
-  print("We are multiplying " + str(number1) + " and " + str(number2))
+ # print("We are multiplying " + str(number1) + " and " + str(number2))
   return number1 * number2
 
 
@@ -50,8 +50,6 @@ def calculator():
   choice = int(input("Enter your choice: "))
 
 
-
-calculator()
 
 
 #### TASK 4 (Member #2)- pull the gitHub repo in your local computer and implement the SUBTRACTION function()
