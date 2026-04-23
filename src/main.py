@@ -12,6 +12,11 @@ def addition(number1, number2):
   return number1 + number2
 
 
+def multiplication(number1, number2):
+  print("We are multiplying " + str(number1) + " and " + str(number2))
+  return number1 * number2
+
+
 def calculator():
   print("Calculator by team =  " + team_name)
   print("Choose the operation you want to perform: ")
