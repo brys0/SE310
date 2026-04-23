@@ -14,7 +14,11 @@ def addition(number1, number2):
 
 def division(number1, number2):
   print("We are dividing " + str(number1) + " and " + str(number2))
-  return number1 / number2
+  if number2 == 0:
+    print("Error: Division by zero is not allowed.")
+    return None
+  else:
+    return number1 / number2
 
 def int_division(number1, number2):
   print(f"We are integer dividing {number1} and {number2}")
@@ -28,6 +32,13 @@ def multiplication(number1, number2):
   print("We are multiplying " + str(number1) + " and " + str(number2))
   return number1 * number2
 
+def sqrt(number):
+  print("We are calculating the square root of " + str(number))
+  if number < 0:
+    print("Error: Square root of a negative number is not defined.")
+    return None
+  else:
+    return number ** 0.5
 
 def calculator():
   print("Calculator by team =  " + team_name)
