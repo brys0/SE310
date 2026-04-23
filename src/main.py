@@ -12,6 +12,13 @@ def addition(number1, number2):
   print("We are adding " + str(number1) + " and " + str(number2))
   return number1 + number2
 
+def division(number1, number2):
+  print("We are dividing " + str(number1) + " and " + str(number2))
+  return number1 / number2
+
+def int_division(number1, number2):
+  print(f"We are integer dividing {number1} and {number2}")
+  return number1 // number2
 
 def subtraction(number1, number2):
   print("We are subtracting " + str(number1) + " and " + str(number2))
