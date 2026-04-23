@@ -1,5 +1,7 @@
+
+
 #### TASK 1 - ENTER YOUR TEAM NAME AND NUMBER
-team_name = ""
+team_name = "Scrumbeldores Army"
 
 #### TASK 2 - Clone the empty gitHub repo in your local computer (Member #1)
 
@@ -14,6 +16,9 @@ def addition(number1, number2):
 def subtraction(number1, number2):
   print("We are subtracting " + str(number1) + " and " + str(number2))
   return number1 - number2
+def multiplication(number1, number2):
+  print("We are multiplying " + str(number1) + " and " + str(number2))
+  return number1 * number2
 
 
 def calculator():
@@ -29,7 +34,7 @@ def calculator():
 
   choice = int(input("Enter your choice: "))
 
- 
+
 
 calculator()
 
